@@ -37,6 +37,7 @@ $(document).ready(function(){
 				var id = this.id;
 				$("div.popover#" + id).addClass("show");
 				$("ul.categories li#" + id + " a p").css("color", "var(--emphasis");
+				positionPopovers();
 			},
 
 			mouseleave: function() {
