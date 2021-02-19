@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html id="pulse" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Square Dashboard</title>
+	<meta http-equiv="description" content="page description" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<nav>
+		<button class="tertiary icon" id="menu" style="background-image: url('assets/menu.svg');"></button>
+		<p class="emphasis-30 product-name">Home</p>
+		<div id="logo"></div>
+		<div class="right-actions">
+			<button class="tertiary icon" id="search" style="background-image: url('assets/search.svg');"></button>
+			<button class="tertiary icon" id="notifications" style="background-image: url('assets/notifications.svg');"></button>
+			<button class="tertiary icon" id="help" style="background-image: url('assets/help.svg');"></button>
+			<button class="text tertiary">Square, Inc</button>
+		</div>
+	</nav>
+	<div class="app-menu">
+		
+		<div class="header">
+			<button class="icon secondary" style="background-image: url('assets/close.svg'); background-size: 16px 16px;" id="menu-close"></button>
+			<div class="right-actions">
+				<button class="tertiary icon" id="search" style="background-image: url('assets/search.svg');"></button>
+				<button class="tertiary icon" id="notifications" style="background-image: url('assets/notifications.svg');"></button>
+				<button class="tertiary icon" id="help" style="background-image: url('assets/help.svg');"></button>
+				<button class="tertiary icon" id="help" style="background-image: url('assets/account.svg');"></button>
+			</div>
+		</div>
+
+		<section>
+			<div class="section-title">
+				<h4>Quick access</h4>
+				<button class="tertiary emphasis-20 small" id="edit"><span>Edit</span></button>
+			</div>
+			<ul class="products" id="my-products">
+				<div>
+					<li>
+						<div class="icon" style="background-image: url('assets/Home.svg');"></div>
+						<a href="#"><p class="emphasis-30">Home</p></a>
+					</li>
+					<li>
+						<div class="icon" style="background-image: url('assets/Reports.svg');"></div>
+						<a href="product.html"><p class="emphasis-30">Reports</p></a>
+					</li>
+					<li>
+						<div class="icon" style="background-image: url('assets/Transactions.svg');"></div>
+						<a href="product.html"><p class="emphasis-30">Transactions</p></a>
+					</li>
+					<li>
+						<div class="icon" style="background-image: url('assets/Balance.svg');"></div>
+						<a href="product.html"><p class="emphasis-30">Balance</p></a>
+					</li>
+					<li>
+						<div class="icon" style="background-image: url('assets/Items.svg');"></div>
+						<a href="product.html"><p class="emphasis-30">Items</p></a>
+					</li>
+					<li>
+						<div class="icon" style="background-image: url('assets/Account-and-Settings.svg');"></div>
+						<a href="product.html"><p class="emphasis-30">Account & Settings</p></a>
+					</li>
+				</div>
+				<li class="add-more">
+					<div class="icon" style="background-image: url('assets/add-more.svg');"></div>
+					<a href="#"><p class="emphasis-30">Add more</p></a>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<div class="section-title">
+				<h4>All products</h4>
+			</div>
+			<ul class="categories">
+				<li id="banking">
+					<a href="#"><p class="emphasis-30">Banking</p></a>
+				</li>
+				<li id="payments">
+					<a href="#"><p class="emphasis-30">Payments</p></a>
+				</li>
+				<li id="business-management">
+					<a href="#"><p class="emphasis-30">Business management</p></a>
+				</li>
+				<li id="customer-relationships">
+					<a href="#"><p class="emphasis-30">Customer relationships</p></a>
+				</li>
+				<li id="team-management">
+					<a href="#"><p class="emphasis-30">Team management</p></a>
+				</li>
+			</ul>
+		</section>
+
+		<section style="border-bottom: none">
+			<div class="section-title">
+				<h4>Multi-tool solutions</h4>
+			</div>
+			<ul class="products">
+				<li id="square-for-retail">
+					<a href="product.html"><p class="emphasis-30">Square for Retail</p></a>
+				</li>
+				<li id="square-for-restaurants">
+					<a href="product.html"><p class="emphasis-30">Square for Restaurants</p></a>
+				</li>
+			</ul>
+		</section>
+
+		<div class="footer">
+			<button class="secondary text">More from Square</button>
+		</div>
+
+	</div>
+	<div class="secondary-page" id="banking">
+		<div class="header">
+			<button class="icon secondary" id="back" style="background-image: url('assets/back.svg');"></button>
+			<h3>Banking</h3>
+		</div>
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Reports.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Reports</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Transactions.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Transactions</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Balance.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Balance</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Capital.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Capital</p></a>
+			</li>
+		</ul>
+	</div>
+	<div class="secondary-page" id="payments">
+		<div class="header">
+			<button class="icon secondary" id="back" style="background-image: url('assets/back.svg');"></button>
+			<h3>Payments</h3>
+		</div>
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Invoices.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Invoices</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Virtual-Terminal.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Virtual Terminal</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Online-Checkout.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Online Checkout</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Online.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Online</p></a>
+			</li>
+		</ul>
+	</div>
+	<div class="secondary-page" id="business-management">
+		<div class="header">
+			<button class="icon secondary" id="back" style="background-image: url('assets/back.svg');"></button>
+			<h3>Business management</h3>
+		</div>
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Devices.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Devices</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Items.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Items</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Orders.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Orders</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Subscriptions.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Subscriptions</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Contracts.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Contracts</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Apps.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Apps</p></a>
+			</li>
+		</ul>
+	</div>
+	<div class="secondary-page" id="customer-relationships">
+		<div class="header">
+			<button class="icon secondary" id="back" style="background-image: url('assets/back.svg');"></button>
+			<h3>Customer relationships</h3>
+		</div>
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Customers.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Customers</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Marketing.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Marketing</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Loyalty.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Loyalty</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Gift-Cards.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Gift Cards</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Appointments.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Appointments</p></a>
+			</li>
+		</ul>
+	</div>
+	<div class="secondary-page" id="team-management">
+		<div class="header">
+			<button class="icon secondary" id="back" style="background-image: url('assets/back.svg');"></button>
+			<h3>Team management</h3>
+		</div>
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Team.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Team</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Payroll.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Payroll</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Timecards.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Timecards</p></a>
+			</li>
+		</ul>
+	</div>
+	<div class="secondary-page" id="multi-tool-solutions">
+		<div class="header">
+			<button class="icon secondary" id="back" style="background-image: url('assets/back.svg');"></button>
+			<h3>Multi-tool solutions</h3>
+		</div>
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Software-Overview.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Software Overview</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Restaurants.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Square for Restaurants</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Retail.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Square for Retail</p></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="popover" id="banking">
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Reports.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Reports</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Transactions.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Transactions</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Balance.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Balance</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Capital.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Capital</p></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="popover" id="payments">
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Invoices.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Invoices</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Virtual-Terminal.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Virtual Terminal</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Online-Checkout.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Online Checkout</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Online.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Online</p></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="popover" id="business-management">
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Devices.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Devices</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Items.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Items</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Orders.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Orders</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Subscriptions.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Subscriptions</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Contracts.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Contracts</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Apps.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Apps</p></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="popover" id="customer-relationships">
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Customers.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Customers</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Loyalty.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Loyalty</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Marketing.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Marketing</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Gift-Cards.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Gift Cards</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Appointments.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Appointments</p></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="popover" id="team-management">
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Team.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Team</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Payroll.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Payroll</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Timecards.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Timecards</p></a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="popover" id="multi-tool-solutions">
+		<ul class="products">
+			<li>
+				<div class="icon" style="background-image: url('assets/Software-Overview.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Software Overview</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Menus.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Square for Restaurants</p></a>
+			</li>
+			<li>
+				<div class="icon" style="background-image: url('assets/Inventory.svg');"></div>
+				<a href="product.html"><p class="emphasis-30">Square for Retail</p></a>
+			</li>
+		</ul>
+	</div>
+	<div id="veil"></div>
+	<div class="modal" id="edit">
+		<div class="header">
+			<button class="icon secondary" style="background-image: url('assets/close.svg');"></button>
+			<button class="primary">Save</button>
+			<h3>Edit quick access</h3>
+		</div>
+		<table>
+			<tbody class="sortable">
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Home</td>
+					<td><input type="checkbox" value="Home" checked disabled></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Reports</td>
+					<td><input type="checkbox" value="Reports" checked></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Transactions</td>
+					<td><input type="checkbox" value="Transactions"  checked></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Balance</td>
+					<td><input type="checkbox" value="Balance"  checked></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Items</td>
+					<td><input type="checkbox" value="Items"  checked></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Account & Settings</td>
+					<td><input type="checkbox" value="Account-and-Settings"  checked disabled></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Apps</td>
+					<td><input type="checkbox" value="Apps" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Appointments</td>
+					<td><input type="checkbox" value="Appointments" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Capital</td>
+					<td><input type="checkbox" value="Capital" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Contracts</td>
+					<td><input type="checkbox" value="Contracts" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Customers</td>
+					<td><input type="checkbox" value="Customers" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Devices</td>
+					<td><input type="checkbox" value="Devices" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Gift Cards</td>
+					<td><input type="checkbox" value="Gift-Cards" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Inventory</td>
+					<td><input type="checkbox" value="Inventory" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Invoices</td>
+					<td><input type="checkbox" value="Invoices" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Loyalty</td>
+					<td><input type="checkbox" value="Loyalty" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Marketing</td>
+					<td><input type="checkbox" value="Marketing" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Menus</td>
+					<td><input type="checkbox" value="Menus" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Online</td>
+					<td><input type="checkbox" value="Online" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Online Checkout</td>
+					<td><input type="checkbox" value="Online-Checkout" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Orders</td>
+					<td><input type="checkbox" value="Orders" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Payroll</td>
+					<td><input type="checkbox" value="Payroll" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Risk Manager</td>
+					<td><input type="checkbox" value="Risk-manager" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Subscriptions</td>
+					<td><input type="checkbox" value="Subscriptions" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Team</td>
+					<td><input type="checkbox" value="Team" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Timecards</td>
+					<td><input type="checkbox" value="Timecards" ></td>
+				</tr>
+				<tr>
+					<td class="drag"><div class="drag-icon"></div></td>
+					<td>Virtual Terminal</td>
+					<td><input type="checkbox" value="Virtual-Terminal" ></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>
+
