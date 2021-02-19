@@ -48,7 +48,7 @@ div.clear{
 
 /* Text Styles */
 
-@font-face {
+/*@font-face {
     font-family: SQ-Market-Bold;
     src: url(fonts/SQMarket-Bold.otf);
 }
@@ -61,10 +61,11 @@ div.clear{
 @font-face {
     font-family: SQ-Market;
     src: url(fonts/SQMarket-Regular.otf);
-}
+}*/
 
 h1, h2, h3, h4, h5, ul li a{
-	font-family: SQ-Market-Bold, sans-serif;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
 	color: var(--text-10);
 }
 
@@ -97,7 +98,7 @@ h5{
 }
 
 p, input, tr{
-	font-family: SQ-Market, sans-serif;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--text-10);
@@ -109,7 +110,8 @@ p, input, tr{
 }
 
 .emphasis-30, .emphasis-20, .emphasis-10 {
-	font-family: SQ-Market-Medium, sans-serif;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 500;
 }
 
 .large{
@@ -128,7 +130,8 @@ button{
 	background: transparent;
 	border: none;
 	border-radius: 6px;
-	font-family: SQ-Market-Medium;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 24px;
 	cursor: pointer;
